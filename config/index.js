@@ -55,8 +55,9 @@ module.exports = {
     /**
      * Source Maps
      */
-
-    productionSourceMap: true,
+    //禁止sourceMap，即取消生成map.js文件
+    //一方面可以减少上线代码包的大小；另一方面提高系统的安全性。
+    productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
 

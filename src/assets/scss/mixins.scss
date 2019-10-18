@@ -1,0 +1,8 @@
+
+/**  
+* 左右浮动布局
+*/
+@mixin layout-right($margin: -5px) {
+    float: right;
+    margin-top: $margin;
+}
